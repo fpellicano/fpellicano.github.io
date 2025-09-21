@@ -34,17 +34,27 @@
 <main>
 
 <h2>MET2230 – Op‑Amp Light Tracker Module</h2>
-<p>The MET2230 board is an educational tool for operational amplifiers, Wheatstone bridge circuits, and LDRs.
-A 741 op‑amp is wired as a differential amplifier across a bridge containing an LDR; the gain is set by resistor R1, and the output drives an LED whose brightness varies with light level.
-Applications include solar tracking, motion detection, and room‑light sensing.</p>
+<p>
+  The MET2230 circuit board is an educational tool for operational amplifiers, Wheatstone bridge circuits,
+  and light‑dependent resistors (LDRs). It uses a bridge containing an LDR feeding a 741 op‑amp configured
+  as a differential amplifier; the gain is set by resistor R1 above the op‑amp.
+</p>
+<p>
+  The output drives an LED whose brightness varies with light level. The PCB provides three usage modes via
+  labeled interfaces (SW1, P1, J1): use the onboard LDR bridge, bypass to an external differential source with SW1,
+  or connect to microcontroller/FPGA headers compatible with common dev kits.
+</p>
+
+<img src="/MET_Modules/MET2230/images/MET2230_img.png" alt="MET2230 module with op‑amp, LDR, and LED" width="360">
+
+<h3>Resources</h3>
 <ul>
-  <li><a href="/MET_Modules/MET2230/about/">About</a></li>
-  <li><a href="/MET_Modules/MET2230/datasheet/">Datasheet</a></li>
-  <li><a href="/MET_Modules/MET2230/assignment-1/">Assignment 1</a></li>
-  <li><a href="/MET_Modules/MET2230/assignment-2/">Assignment 2</a></li>
+  <li><a href="/MET_Modules/MET2230/MET2230_Datasheet_R2.pdf">Datasheet (PDF)</a></li>
+  <li><a href="/MET_Modules/MET2230/assignment-1/">Assignment 1 — Analog Analysis &amp; Multisim</a></li>
+  <li><a href="/MET_Modules/MET2230/assignment-2/">Assignment 2 — Embedded Project</a></li>
 </ul>
 
 </main>
-<footer><p>© Francis Pellicano. Temporary hosting via GitHub Pages.</p></footer>
+<footer><p>© Francis Pellicano</p></footer>
 </body>
 </html>
